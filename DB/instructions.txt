@@ -1,0 +1,3 @@
+Make sure you have installed XAMPP
+
+create new database and name is as "smart_search" without quotation and then import the given database 
