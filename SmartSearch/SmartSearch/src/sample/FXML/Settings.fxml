@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #212529;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Text fill="WHITE" layoutX="301.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New Password:" wrappingWidth="115.02380371093761">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="300.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Confirm Password:" wrappingWidth="115.02380371093761">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <JFXTextField fx:id="addProjectName" layoutX="421.0" layoutY="130.0" prefHeight="26.0" prefWidth="134.0" stylesheets="@../StyleSheet.css" />
+      <JFXTextField fx:id="addProjectZone" layoutX="421.0" layoutY="172.0" prefHeight="26.0" prefWidth="134.0" stylesheets="@../StyleSheet.css" />
+      <JFXTextField fx:id="addProjectScope" layoutX="421.0" layoutY="214.0" prefHeight="26.0" prefWidth="134.0" stylesheets="@../StyleSheet.css" />
+      <JFXButton fx:id="btnChangePassword" buttonType="RAISED" layoutX="439.0" layoutY="266.0" prefHeight="26.0" prefWidth="115.0" style="-fx-background-color: #2B3036;" text="Change Password" textFill="WHITE" />
+
+      <Text fill="WHITE" layoutX="300.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Current Password:" wrappingWidth="115.0238037109375">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+
+      <JFXButton fx:id="btnSettingsToHome" buttonType="RAISED" layoutX="45.0" layoutY="346.0" prefWidth="58.0" style="-fx-background-color: #2B3036;" text="Home" textFill="WHITE" />
+      <Text fill="WHITE" layoutX="236.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Settings">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="45.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Reset Projects ID" />
+      <Text fill="WHITE" layoutX="45.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Reset Hardwares ID" />
+      <JFXButton fx:id="resetProjectId" buttonType="RAISED" layoutX="177.0" layoutY="139.0" prefWidth="58.0" style="-fx-background-color: #2B3036;" text="Reset" textFill="WHITE" />
+      <JFXButton fx:id="resetHardwareId" buttonType="RAISED" layoutX="177.0" layoutY="223.0" prefWidth="58.0" style="-fx-background-color: #2B3036;" text="Reset" textFill="WHITE" />
+      <Text fill="WHITE" layoutX="45.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Make sure to delete all Projects Before resetting." wrappingWidth="223.04962158203125">
+         <font>
+            <Font name="System Italic" size="10.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="45.0" layoutY="265.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Make sure to delete all Hardware Before resetting." wrappingWidth="223.04962158203125">
+         <font>
+            <Font name="System Italic" size="10.0" />
+         </font>
+      </Text>
+
+   </children>
+</AnchorPane>

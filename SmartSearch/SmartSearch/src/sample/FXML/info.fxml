@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #212529;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Text fill="WHITE" layoutX="45.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="For Bolts: ">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="339.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="For Gears:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="45.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="B18.2.3.2M - Formed hex screw, M5 x 0.8 x 30 --30CS " wrappingWidth="186.7059326171875">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="339.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Metric - RH Helical gear 2.5M 10T 45HA 14.5PA 12FW " wrappingWidth="186.7059326171875">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <JFXTextArea editable="false" focusColor="#212529" layoutX="45.0" layoutY="86.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="126.0" prefWidth="220.0" styleClass="text-field" stylesheets="@../StyleSheet.css" text="M = Metric&#10;5 = Diameter&#10;.8 = Thread Length&#10;30 = Length of the Bolt&#10;CS = Carbon Steel&#10;B18.2.3.2M = Bolt Standard Reference " unFocusColor="#212529" />
+      <JFXTextArea editable="false" focusColor="#212529" layoutX="339.0" layoutY="86.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="126.0" prefWidth="220.0" styleClass="text-field" stylesheets="@../StyleSheet.css" text="RH = Right Hand&#10;M = Module&#10;T = Teeth No.&#10;HA = Helix Angle&#10;PA = Pressure Angle&#10;FW = Face Width" unFocusColor="#212529" />
+      <JFXButton fx:id="ok" buttonType="RAISED" layoutX="236.0" layoutY="336.0" onAction="#killInfo" prefHeight="35.0" prefWidth="128.0" style="-fx-background-color: #2B3036;" stylesheets="@../StyleSheet.css" text="OK" textFill="WHITE" />
+   </children>
+</AnchorPane>

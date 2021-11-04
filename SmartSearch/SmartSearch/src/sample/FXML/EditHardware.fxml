@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #212529;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.EditHardwareController">
+   <children>
+      <Text fill="WHITE" layoutX="33.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Diameter (mm)" wrappingWidth="124.79995117187491">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="301.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pitch (mm)" wrappingWidth="95.02386474609375">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <JFXButton fx:id="btnHardwareUpdate" buttonType="RAISED" layoutX="498.0" layoutY="346.0" onAction="#getUpdate" prefWidth="58.0" style="-fx-background-color: #2B3036;" text="Update" textFill="WHITE" />
+      <JFXButton fx:id="btnHardwareEditBack" buttonType="RAISED" layoutX="33.0" layoutY="346.0" prefWidth="58.0" style="-fx-background-color: #2B3036;" text="Close" textFill="WHITE" />
+
+      <JFXTextField fx:id="fieldEditHardwareId" editable="false" layoutX="62.0" layoutY="50.0" prefHeight="26.0" prefWidth="101.0" stylesheets="@../StyleSheet.css" />
+      <JFXTextField fx:id="fieldEditHardwareDia" layoutX="161.0" layoutY="98.0" prefHeight="26.0" prefWidth="88.0" stylesheets="@../StyleSheet.css" />
+      <JFXTextField fx:id="fieldEditHardwarePit" layoutX="409.0" layoutY="101.0" prefHeight="26.0" prefWidth="88.0" stylesheets="@../StyleSheet.css" />
+
+      <Text fill="WHITE" layoutX="33.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID" wrappingWidth="58.400000000000034">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+
+
+      <Text fill="WHITE" layoutX="235.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Edit Hardware" wrappingWidth="132.62384033203125">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="33.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="B (mm)" wrappingWidth="124.79995117187491">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <JFXTextField fx:id="fieldEditHardwareB" layoutX="161.0" layoutY="137.0" prefHeight="26.0" prefWidth="88.0" stylesheets="@../StyleSheet.css" />
+      <Text fill="WHITE" layoutX="33.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DK (mm)" wrappingWidth="124.79995117187491">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <JFXTextField fx:id="fieldEditHardwareK" layoutX="409.0" layoutY="140.0" prefHeight="26.0" prefWidth="88.0" stylesheets="@../StyleSheet.css" />
+      <JFXTextField fx:id="fieldEditHardwareDk" layoutX="161.0" layoutY="176.0" prefHeight="26.0" prefWidth="88.0" stylesheets="@../StyleSheet.css" />
+      <Text fill="WHITE" layoutX="301.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="K (mm) " wrappingWidth="95.02386474609375">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+
+      <Text fill="WHITE" layoutX="301.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A (mm)" wrappingWidth="107.82391357421875">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <JFXTextField fx:id="fieldEditHardwareA" layoutX="409.0" layoutY="179.0" prefHeight="26.0" prefWidth="88.0" stylesheets="@../StyleSheet.css" />
+      <Text fill="WHITE" layoutX="33.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="S (mm)" wrappingWidth="124.79995117187491">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <JFXTextField fx:id="fieldEditHardwareS" layoutX="159.0" layoutY="215.0" prefHeight="26.0" prefWidth="88.0" stylesheets="@../StyleSheet.css" />
+      <Text fill="WHITE" layoutX="301.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Length" wrappingWidth="107.82391357421875">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <JFXTextField fx:id="fieldEditHardwareLen" layoutX="409.0" layoutY="218.0" prefHeight="26.0" prefWidth="88.0" stylesheets="@../StyleSheet.css" />
+      <Text fill="WHITE" layoutX="33.0" layoutY="274.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Head" wrappingWidth="124.79995117187491">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <JFXTextField fx:id="fieldEditHardwareHead" layoutX="159.0" layoutY="254.0" prefHeight="26.0" prefWidth="88.0" stylesheets="@../StyleSheet.css" />
+      <Text fill="WHITE" layoutX="301.0" layoutY="274.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Socket" wrappingWidth="107.82391357421875">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <JFXTextField fx:id="fieldEditHardwareSocket" layoutX="409.0" layoutY="254.0" prefHeight="26.0" prefWidth="88.0" stylesheets="@../StyleSheet.css" />
+      <Text fill="WHITE" layoutX="33.0" layoutY="314.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thread" wrappingWidth="124.79995117187491">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <JFXTextField fx:id="fieldEditHardwareThread" layoutX="159.0" layoutY="294.0" prefHeight="26.0" prefWidth="88.0" stylesheets="@../StyleSheet.css" />
+      <Text fill="WHITE" layoutX="301.0" layoutY="314.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quantity" wrappingWidth="107.82391357421875">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <JFXTextField fx:id="fieldEditHardwareQuantity" layoutX="409.0" layoutY="294.0" prefHeight="26.0" prefWidth="88.0" stylesheets="@../StyleSheet.css" />
+   </children>
+</AnchorPane>

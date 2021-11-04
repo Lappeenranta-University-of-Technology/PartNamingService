@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #212529;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <JFXButton buttonType="RAISED" layoutX="236.0" layoutY="216.0" onAction="#loadFile" prefHeight="55.0" prefWidth="128.0" style="-fx-background-color: #2B3036;" stylesheets="@../StyleSheet.css" text="Load File" textFill="WHITE" />
+      <JFXTextField fx:id="enterProId" labelFloat="true" layoutX="233.0" layoutY="175.0" promptText="Project Id" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,48 @@
+
+ /*.searchBar{*/
+ /* -fx-text-fill: white;*/
+ /*}*/
+
+ .text-field{
+  -fx-text-fill: white;
+ }
+
+ .table-view{
+  -fx-background-color: #2B3036;
+ }
+
+ .table-view .column-header-background{
+  -fx-background-color: #2B3036;
+ }
+
+
+
+
+
+
+ .table-view .column-header, .table-view .filler{
+  -fx-size: 40;
+  -fx-background-color: transparent;
+ }
+
+ .table-view .column-header .label{
+  -fx-text-fill: white;
+  -fx-alignment: left;
+ }
+
+ .table-row-cell {
+  -fx-background-color: #2B3036;
+  /*-fx-text-fill: whitesmoke;*/
+ }
+
+
+
+ .table-row-cell{
+
+  /*-fx-text-fill: whitesmoke;*/
+ }
+
+ .table-column {
+
+  -fx-text-fill: white;
+ }

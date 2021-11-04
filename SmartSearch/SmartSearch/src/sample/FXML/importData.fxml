@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="498.0" prefWidth="735.0" style="-fx-background-color: #212529;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ImportController">
+   <children>
+      <JFXTextField fx:id="prodetailSearchBar" labelFloat="true" layoutX="32.0" layoutY="28.0" prefHeight="26.0" prefWidth="241.0" promptText="Search" stylesheets="@../StyleSheet.css" />
+      <TableView fx:id="proDetailTable" layoutX="24.0" layoutY="71.0" prefHeight="358.0" prefWidth="687.0" stylesheets="@../StyleSheet.css">
+        <columns>
+          <TableColumn fx:id="serialNumber" prefWidth="39.20001220703125" text="S.no" />
+          <TableColumn fx:id="proDetailID" prefWidth="48.0" text="ID" />
+            <TableColumn fx:id="proDetailDia" prefWidth="79.20001220703125" text="Diameter" />
+            <TableColumn fx:id="proDetailPit" prefWidth="45.5999755859375" text="Pitch" />
+            <TableColumn fx:id="proDetailB" prefWidth="41.60002136230469" text="B" />
+            <TableColumn fx:id="proDetailK" prefWidth="36.79998779296875" text="K" />
+            <TableColumn fx:id="proDetailDK" prefWidth="45.60003662109375" text="DK" />
+            <TableColumn fx:id="proDetailA" prefWidth="44.79998779296875" text="A" />
+            <TableColumn fx:id="proDetailS" prefWidth="31.20001220703125" text="S" />
+            <TableColumn fx:id="proDetailLen" prefWidth="54.4000244140625" text="Length" />
+            <TableColumn fx:id="proDetailHead" prefWidth="44.79998779296875" text="Head" />
+            <TableColumn fx:id="proDetailSocket" prefWidth="61.5999755859375" text="Socket" />
+            <TableColumn fx:id="proDetailThread" prefWidth="48.0" text="Type" />
+            <TableColumn fx:id="proDetailQuantity" prefWidth="59.2000732421875" text="Quantity" />
+        </columns>
+      </TableView>
+      <AnchorPane layoutX="32.0" layoutY="333.0" />
+      <JFXButton fx:id="projectsDetailsToHome" buttonType="RAISED" layoutX="24.0" layoutY="447.0" prefHeight="26.0" prefWidth="58.0" style="-fx-background-color: #2B3036;" text="Back" textFill="WHITE" />
+      <JFXButton fx:id="delProjectDetails" buttonType="RAISED" layoutX="518.0" layoutY="447.0" prefHeight="26.0" prefWidth="58.0" style="-fx-background-color: #2B3036;" text="Delete" textFill="WHITE" />
+      <JFXButton fx:id="editProjectDetails" buttonType="RAISED" layoutX="585.0" layoutY="447.0" prefHeight="26.0" prefWidth="58.0" style="-fx-background-color: #2B3036;" text="Edit" textFill="WHITE" />
+      <JFXButton fx:id="addProjectDetails" buttonType="RAISED" layoutX="652.0" layoutY="447.0" prefHeight="26.0" prefWidth="58.0" style="-fx-background-color: #2B3036;" text="Add" textFill="WHITE" />
+      <JFXButton fx:id="refreshProjectDetails" buttonType="RAISED" layoutX="451.0" layoutY="447.0" prefHeight="26.0" prefWidth="58.0" style="-fx-background-color: #2B3036;" text="Refresh" textFill="WHITE" />
+      <JFXButton fx:id="btnImport" buttonType="RAISED" layoutX="368.0" layoutY="447.0" onAction="#load" prefHeight="26.0" prefWidth="58.0" style="-fx-background-color: #2B3036;" text="Import" textFill="WHITE" />
+      <JFXTextField fx:id="projectId" labelFloat="true" layoutX="187.0" layoutY="447.0" prefHeight="26.0" prefWidth="170.0" promptText="Project ID" stylesheets="@../StyleSheet.css" />
+   </children>
+</AnchorPane>

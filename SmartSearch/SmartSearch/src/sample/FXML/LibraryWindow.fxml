@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="630.0" prefWidth="354.0" style="-fx-background-color: #212529;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <JFXTextField labelFloat="true" layoutX="87.0" layoutY="450.0" prefHeight="26.0" prefWidth="180.0" promptText="Search" stylesheets="@../StyleSheet.css" />
+      <TableView layoutX="46.0" layoutY="94.0" prefHeight="319.0" prefWidth="262.0" stylesheets="@../StyleSheet.css">
+        <columns>
+          <TableColumn prefWidth="39.20001220703125" text=" S.no" />
+          <TableColumn prefWidth="96.800048828125" text="Project" />
+            <TableColumn prefWidth="67.199951171875" text="Zone" />
+            <TableColumn prefWidth="56.80002441406248" text="Scope" />
+        </columns>
+      </TableView>
+      <AnchorPane layoutX="32.0" layoutY="333.0" />
+      <JFXButton buttonType="RAISED" layoutX="24.0" layoutY="578.0" prefHeight="26.0" prefWidth="58.0" style="-fx-background-color: #2B3036;" text="Home" textFill="WHITE" />
+      <Text fill="WHITE" layoutX="70.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PROJECTS">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Text>
+      <JFXButton buttonType="RAISED" layoutX="87.0" layoutY="496.0" prefHeight="26.0" prefWidth="180.0" style="-fx-background-color: #2B3036;" text="View" textFill="WHITE" />
+      <JFXTextArea editable="false" focusColor="#212529" layoutX="79.0" layoutY="535.0" prefHeight="32.0" prefWidth="195.0" styleClass="text-field" stylesheets="@../StyleSheet.css" text="Select a project than click on &quot;View&quot; button" unFocusColor="#212529">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </JFXTextArea>
+   </children>
+</AnchorPane>

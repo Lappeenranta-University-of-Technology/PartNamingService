@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #212529;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <JFXButton fx:id="search" buttonType="RAISED" layoutX="97.0" layoutY="150.0" prefHeight="55.0" prefWidth="128.0" style="-fx-background-color: #2B3036;" stylesheets="@../StyleSheet.css" text="Search" textFill="WHITE" />
+      <JFXButton fx:id="viewProjects" buttonType="RAISED" layoutX="236.0" layoutY="150.0" prefHeight="55.0" prefWidth="128.0" style="-fx-background-color: #2B3036;" text="View Projects" textFill="WHITE" />
+      <JFXButton layoutX="402.0" layoutY="288.0" prefHeight="12.0" prefWidth="20.0" />
+      <ImageView fx:id="i" fitHeight="40.0" fitWidth="20.0" layoutX="566.0" layoutY="366.0" onMouseClicked="#info" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/i.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="newProject" buttonType="RAISED" layoutX="375.0" layoutY="150.0" prefHeight="55.0" prefWidth="128.0" style="-fx-background-color: #2B3036;" text="New Project" textFill="WHITE" />
+      <JFXButton fx:id="settings" buttonType="RAISED" layoutX="236.0" layoutY="217.0" prefHeight="55.0" prefWidth="128.0" style="-fx-background-color: #2B3036;" stylesheets="@../StyleSheet.css" text="Settings" textFill="WHITE" />
+      <JFXButton fx:id="importFile" buttonType="RAISED" layoutX="97.0" layoutY="217.0" prefHeight="55.0" prefWidth="128.0" style="-fx-background-color: #2B3036;" stylesheets="@../StyleSheet.css" text="Import Data" textFill="WHITE" />
+   </children>
+</AnchorPane>
